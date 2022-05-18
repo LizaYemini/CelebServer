@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.38" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CelebContracts\CelebContracts.csproj" />
+    <ProjectReference Include="..\Infra\DIContracts\DIContracts.csproj" />
+    <ProjectReference Include="..\Infra\DI\DI.csproj" />
+  </ItemGroup>
+
+</Project>
